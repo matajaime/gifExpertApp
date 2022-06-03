@@ -15,3 +15,6 @@ expect.addSnapshotSerializer(createSerializer({mode: 'deep'}));
 //npm i @zarconontol/enzyme-adapter-react-18
 //npm install --save-dev enzyme-to-json
 
+//npm install --save-dev @testing-library/react-hooks --force
+
+//npx create-react-app josh
