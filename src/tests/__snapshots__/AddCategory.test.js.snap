@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests AddCategory component Snapshot test initial state 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <h4>
+    Add Category
+  </h4>
+  <input
+    onChange={[Function]}
+    onFocus={[Function]}
+    placeholder="Ingresa una categoria"
+    type="text"
+    value=""
+  />
+</form>
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImgGridItem tests SnapShot of init state of GridItem 1`] = `
+<div
+  className="card animate__animated animate__fadeInDownBig"
+>
+  <img
+    alt="MiTitulo"
+    src="MiLiga"
+  />
+  <p>
+    MiTitulo
+  </p>
+</div>
+`;

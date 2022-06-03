@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GifExpertApp tests GifExpertApp snap shot init state 1`] = `
+<Fragment>
+  <h2>
+    Gif Expert App
+  </h2>
+  <AddCategory
+    addCategory={[Function]}
+  />
+  <hr />
+</Fragment>
+`;

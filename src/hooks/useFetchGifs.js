@@ -13,7 +13,7 @@ export const useFetchGifs = (category) => {
                 loading: false
             });
         });
-        console.log('Me llamaron');
+        //console.log('Me llamaron');
     },[category]);
     return state;
 };

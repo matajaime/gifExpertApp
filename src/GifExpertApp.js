@@ -2,10 +2,9 @@ import React, { useState } from "react";
 import { AddCategory } from "./components/AddCategory";
 import { ImageGrid } from "./components/ImageGrid";
 
-const GifExpertApp = () => {
+const GifExpertApp = ({defaultCategories = []}) => {
     
-    const [categories, setCategories] = useState([]);
-
+    const [categories, setCategories] = useState(defaultCategories);
     const handleAdd = (newCategory) => {
         for ( let i = 0; i < categories.length; ++i ) {
             if ( categories[i] === newCategory ) {

@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types';
 
 export const ImgGridItem = ({img}) => {
     //console.log(img);
@@ -9,3 +10,8 @@ export const ImgGridItem = ({img}) => {
         </div>
     );
 };
+
+ImgGridItem.propTypes = {
+    img : PropTypes.object.isRequired
+}
+

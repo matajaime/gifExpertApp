@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas CounterApp Prueba de snapShot base sin parametros 1`] = `
+<Fragment>
+  <h1>
+    CounterApp
+  </h1>
+  <h2>
+    5
+  </h2>
+  <button
+    onClick={[Function]}
+  >
+    +1
+  </button>
+  <button
+    id="btnReset"
+    onClick={[Function]}
+  >
+    Reset
+  </button>
+  <button
+    onClick={[Function]}
+  >
+    -1
+  </button>
+</Fragment>
+`;

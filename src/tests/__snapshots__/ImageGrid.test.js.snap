@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImgGrid tests SnapShot of init state of Grid 1`] = `
+<Fragment>
+  <h3>
+    Mario
+  </h3>
+  <p>
+    Cargando...
+  </p>
+</Fragment>
+`;
+
+exports[`ImgGrid tests snapshot of grid populated 1`] = `
+<Fragment>
+  <h3>
+    Mario
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <ImgGridItem
+      img={
+        Object {
+          "id": 1,
+          "title": "test title",
+          "url": "https://test.domain.com/test/path/img.jpg",
+        }
+      }
+      key="1"
+    />
+    <ImgGridItem
+      img={
+        Object {
+          "id": 2,
+          "title": "test title 2",
+          "url": "https://test.domain.com/test/path/img2.jpg",
+        }
+      }
+      key="2"
+    />
+  </div>
+</Fragment>
+`;
